@@ -46,17 +46,17 @@
 
             <Separator></Separator>
             <MenuItem Header="Clock Style">
-                <MenuItem Header="Default"/>
+                <MenuItem Header="Default" Click="DefaultStyle_Click"/>
                 <Separator/>
-                <MenuItem Header="Red Style"/>
-                <MenuItem Header="Pink Style"/>
-                <MenuItem Header="Gold Style"/>
+                <MenuItem Header="Red Style" Click="RedStyle_Click"/>
+                <MenuItem Header="Pink Style" Click="PinkStyle_Click"/>
+                <MenuItem Header="White Style" Click="WhiteStyle_Click"/>
             </MenuItem>
         </ContextMenu>
     </Window.ContextMenu>
     
     <Grid Width="300" Height="300" MouseLeftButtonDown="Grid_MouseDown">
-        <Image Source="{DynamicResource BlackStyle}" Margin="-48,-52,-52,-48" ImageFailed="Image_ImageFailed"></Image>
+        <Image x:Name="ImgClock" Source="{DynamicResource BlackStyle}" Margin="-48,-52,-52,-48" ImageFailed="Image_ImageFailed"></Image>
 
         <!-- Second  -->
         <Rectangle Margin="150,30,149,150" Name="rectangleSecond" Stroke="White" StrokeDashCap="Round" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round">

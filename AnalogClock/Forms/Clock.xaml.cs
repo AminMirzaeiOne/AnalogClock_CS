@@ -199,5 +199,30 @@ namespace AnalogClock.Forms
         {
             this.rectangleSecond.Stroke = Brushes.SlateBlue;
         }
+
+        private void DefaultStyle_Click(object sender, RoutedEventArgs e)
+        {
+            Uri uriSource = new Uri(@"/AnalogClock;component/Styles/Style3.png", UriKind.Relative);
+            this.ImgClock.Source = new BitmapImage(uriSource);
+
+        }
+
+        private void RedStyle_Click(object sender, RoutedEventArgs e)
+        {
+            Uri uriSource = new Uri(@"/AnalogClock;component/Styles/Style1.png", UriKind.Relative);
+            this.ImgClock.Source = new BitmapImage(uriSource);
+        }
+
+        private void PinkStyle_Click(object sender, RoutedEventArgs e)
+        {
+            Uri uriSource = new Uri(@"/AnalogClock;component/Styles/Style2.png", UriKind.Relative);
+            this.ImgClock.Source = new BitmapImage(uriSource);
+        }
+
+        private void WhiteStyle_Click(object sender, RoutedEventArgs e)
+        {
+            Uri uriSource = new Uri(@"/AnalogClock;component/Styles/Style4.png", UriKind.Relative);
+            this.ImgClock.Source = new BitmapImage(uriSource);
+        }
     }
 }
