@@ -22,15 +22,15 @@
                 <MenuItem Header="Magenta" Foreground="White" Background="SlateBlue" Click="HMagenta_Click"/>
             </MenuItem>
             <MenuItem Header="Minute Color">
-                <MenuItem Header="Black" Foreground="White" Background="Black"/>
-                <MenuItem Header="White" Foreground="Black" Background="White"/>
+                <MenuItem Header="Black" Foreground="White" Background="Black" Click="MBlack_Click"/>
+                <MenuItem Header="White" Foreground="Black" Background="White" Click="MWhite_Click"/>
                 <Separator></Separator>
-                <MenuItem Header="Red" Foreground="White" Background="Red"/>
-                <MenuItem Header="Blue" Foreground="White" Background="DodgerBlue"/>
-                <MenuItem Header="Green" Foreground="White" Background="Green"/>
-                <MenuItem Header="Orange" Foreground="White" Background="Tomato"/>
-                <MenuItem Header="Gold" Foreground="Black" Background="Gold"/>
-                <MenuItem Header="Magenta" Foreground="White" Background="SlateBlue"/>
+                <MenuItem Header="Red" Foreground="White" Background="Red" Click="MRed_Click"/>
+                <MenuItem Header="Blue" Foreground="White" Background="DodgerBlue" Click="MBlue_Click"/>
+                <MenuItem Header="Green" Foreground="White" Background="Green" Click="MGreen_Click"/>
+                <MenuItem Header="Orange" Foreground="White" Background="Tomato" Click="MOrange_Click"/>
+                <MenuItem Header="Gold" Foreground="Black" Background="Gold" Click="MGold_Click"/>
+                <MenuItem Header="Magenta" Foreground="White" Background="SlateBlue" Click="MMagenta_Click"/>
             </MenuItem>
             <MenuItem Header="Second Color">
                 <MenuItem Header="Black" Foreground="White" Background="Black"/>

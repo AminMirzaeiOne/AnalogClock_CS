@@ -119,5 +119,45 @@ namespace AnalogClock.Forms
         {
             this.rectangleHour.Stroke = Brushes.SlateBlue;
         }
+
+        private void MBlack_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleMinute.Stroke = Brushes.Black;
+        }
+
+        private void MWhite_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleMinute.Stroke = Brushes.White;
+        }
+
+        private void MRed_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleMinute.Stroke = Brushes.Crimson;
+        }
+
+        private void MBlue_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleMinute.Stroke = Brushes.DodgerBlue;
+        }
+
+        private void MGreen_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleMinute.Stroke = Brushes.Green;
+        }
+
+        private void MOrange_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleMinute.Stroke = Brushes.Orange;
+        }
+
+        private void MGold_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleMinute.Stroke = Brushes.Gold;
+        }
+
+        private void MMagenta_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleMinute.Stroke = Brushes.SlateBlue;
+        }
     }
 }
