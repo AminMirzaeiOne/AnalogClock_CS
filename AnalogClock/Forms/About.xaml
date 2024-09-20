@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="About" Height="450" Width="800">
     <Grid x:Name="AboutForm" Background="#FF141414">
-        
+        <Image x:Name="DevImage" HorizontalAlignment="Center" Height="116" Margin="0,39,0,0" VerticalAlignment="Top" Width="116" Source="/Images/AminMirzaei.png"/>
+
     </Grid>
 </Window>
