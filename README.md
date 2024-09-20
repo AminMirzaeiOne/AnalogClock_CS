@@ -20,8 +20,8 @@ Analog graphic clock software<br />
 3 - View the result
 
 <h2>📷 Screenshots</h2>
-![Screenshot 2024-09-01 064939](https://github.com/user-attachments/assets/e237fbda-961b-40a9-b868-6fb853c2f1c4)<br />
-![Screenshot 2024-09-01 064951](https://github.com/user-attachments/assets/406d65bc-da6a-46a4-8f83-133f59acd1c2)<br />
-![Screenshot 2024-09-01 065140](https://github.com/user-attachments/assets/878f6fd8-f3f6-4a72-a2ea-35b1cb7a5f42)<br />
-![Screenshot 2024-09-01 065235](https://github.com/user-attachments/assets/95d53605-5fb8-4256-9590-de383ca64259)<br />
-![Screenshot 2024-09-01 065253](https://github.com/user-attachments/assets/d6444abb-5663-4f2c-bd18-e771e2a9b0af)
+![Screenshot 2024-09-20 102307](https://github.com/user-attachments/assets/110074a8-06e5-41cf-9632-b81831685be1)
+![Screenshot 2024-09-20 102252](https://github.com/user-attachments/assets/060bd53d-d61d-48b5-b08e-4c937d396f10)
+![Screenshot 2024-09-20 102235](https://github.com/user-attachments/assets/e345dba7-b575-4a04-b275-82ceb81d4d8b)
+![Screenshot 2024-09-20 102215](https://github.com/user-attachments/assets/1ff2870c-67a9-4141-a8af-c67cbccae30a)
+![Screenshot 2024-09-20 102147](https://github.com/user-attachments/assets/4189961d-b710-4223-bd95-b233cbe1bab7)
