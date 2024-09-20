@@ -4,6 +4,14 @@
     Title="Clock" Margin="2" Height="327" Width="311" AllowsTransparency="True" 
         WindowStyle="None" Background="Transparent" WindowStartupLocation="CenterScreen" 
         ResizeMode="NoResize" Topmost="False" Opacity="1">
+    <Window.ContextMenu>
+        <ContextMenu Name="cm" StaysOpen="true">
+            <MenuItem Header="Exit" Click="ExitMenuItem_Click"/>
+            <MenuItem Header="Restart" Click="RestartMenuItem_Click"/>
+            <MenuItem Header="About" Click="AboutMenuItem_Click"/>
+        </ContextMenu>
+    </Window.ContextMenu>
+    
     <Grid Width="300" Height="300" MouseLeftButtonDown="Grid_MouseDown">
         <Image Source="{DynamicResource BlackStyle}" Margin="-48,-52,-52,-48" ImageFailed="Image_ImageFailed"></Image>
 
