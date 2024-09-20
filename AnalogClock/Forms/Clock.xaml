@@ -9,6 +9,20 @@
             <MenuItem Header="Exit" Click="ExitMenuItem_Click"/>
             <MenuItem Header="Restart" Click="RestartMenuItem_Click"/>
             <MenuItem Header="About" Click="AboutMenuItem_Click"/>
+            <Separator></Separator>
+            <MenuItem Header="Hour Color">
+                <MenuItem Header="Black" Foreground="White" Background="Black"/>
+                <MenuItem Header="White" Foreground="Black" Background="White"/>
+                <Separator></Separator>
+                <MenuItem Header="Red" Foreground="White" Background="Red"/>
+                <MenuItem Header="Blue" Foreground="White" Background="DodgerBlue"/>
+                <MenuItem Header="Green" Foreground="White" Background="Green"/>
+                <MenuItem Header="Orange" Foreground="White" Background="Tomato"/>
+                <MenuItem Header="Gold" Foreground="Black" Background="Gold"/>
+                <MenuItem Header="Magenta" Foreground="White" Background="SlateBlue"/>
+            </MenuItem>
+            <MenuItem Header="Minute Color" />
+            <MenuItem Header="Second Color" />
         </ContextMenu>
     </Window.ContextMenu>
     
