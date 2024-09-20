@@ -5,6 +5,7 @@
              StartupUri="Forms/Clock.xaml">
     <Application.Resources>
         <ResourceDictionary>
+            <BitmapImage x:Key="RedStyle" UriSource="Styles/Style1.png"></BitmapImage>
             <BitmapImage x:Key="PinkStyle" UriSource="Styles/Style2.png"></BitmapImage>
             <BitmapImage x:Key="BlackStyle" UriSource="Styles/Style3.png"></BitmapImage>
         </ResourceDictionary>

@@ -4,11 +4,8 @@
     Title="Clock" Margin="2" Height="327" Width="311" AllowsTransparency="True" 
         WindowStyle="None" Background="Transparent" WindowStartupLocation="CenterScreen" 
         ResizeMode="NoResize" Topmost="False" Opacity="1">
-    <Grid Width="200" Height="200" MouseLeftButtonDown="Grid_MouseDown">
-        <Image Source="{DynamicResource PinkStyle}" Margin="-48,-52,-52,-48" ImageFailed="Image_ImageFailed"></Image>
-
-        <Label Name="christianityCalendar" Foreground="White" Margin="0, 0, 0, 80" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="Auto" Width="Auto">تاریخ میلادی</Label>
-        <Label Name="persianCalendar" Foreground="White" Margin="0, 80, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Width="Auto">تاریخ شمسی</Label>
+    <Grid Width="300" Height="300" MouseLeftButtonDown="Grid_MouseDown">
+        <Image Source="{DynamicResource BlackStyle}" Margin="-48,-52,-52,-48" ImageFailed="Image_ImageFailed"></Image>
 
         <!-- Second  -->
         <Rectangle Margin="150,30,149,150" Name="rectangleSecond" Stroke="White" StrokeDashCap="Round" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round">
@@ -19,7 +16,7 @@
         <!-- -->
 
         <!-- Minute  -->
-        <Rectangle Margin="150,49,149,151" Name="rectangleMinute" Stroke="LightGreen">
+        <Rectangle Margin="150,49,149,151" Name="rectangleMinute" Stroke="Red">
             <Rectangle.RenderTransform>
                 <RotateTransform x:Name="minuteHand" CenterX="0" CenterY="100" Angle="0" />
             </Rectangle.RenderTransform>
@@ -32,8 +29,6 @@
                 <RotateTransform x:Name="hourHand" CenterX="0" CenterY="70" Angle="0" />
             </Rectangle.RenderTransform>
         </Rectangle>
-        <TextBlock Margin="120,140,97,130" Name="textBlock1" Text="Amin Mirzaei" Foreground="White" />
-        <TextBlock Margin="80,160,71,117" Name="textBlock2" Text="aminmirzaei.og@gmail.com" Foreground="DodgerBlue" />
         <!---->
 
     </Grid>
