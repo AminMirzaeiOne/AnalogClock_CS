@@ -23,5 +23,10 @@ namespace AnalogClock.Forms
         {
             InitializeComponent();
         }
+
+        private void LblGithubID_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/AminMirzaeiOne");
+        }
     }
 }
