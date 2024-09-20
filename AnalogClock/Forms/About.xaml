@@ -1,16 +1,23 @@
-﻿<Window x:Class="AnalogClock.Forms.About"
+﻿<Window x:Name="AboutForm1" x:Class="AnalogClock.Forms.About"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AnalogClock.Forms"
         mc:Ignorable="d"
-        Title="About" Height="450" Width="800">
-    <Grid x:Name="AboutForm" Background="#FF141414">
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="ThreeDBorderWindow"
+        Title="About" Height="450" Width="450">
+    <Grid x:Name="AboutGrid" Background="#FF141414">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
         <Image x:Name="DevImage" HorizontalAlignment="Center" Height="116" Margin="0,39,0,0" VerticalAlignment="Top" Width="116" Source="/Images/AminMirzaei.png"/>
-        <Label x:Name="LblDevName" Content="Developer : Amin Mirzaei" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="#FF22CCB1"/>
-        <Label x:Name="LblGithubID" Content="Github : AminMirzaeiOne" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Foreground="#FF00B0FF" Margin="0,255,0,0"/>
-        <Label x:Name="LblInstaID" Content="Instagram : Amin.Reals" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Foreground="#FFFF005F" Margin="0,316,0,0" Background="{x:Null}"/>
+        <Label x:Name="LblDevName" Content="Developer : Amin Mirzaei" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="#FF22CCB1" Height="42" Width="276"/>
+        <Label x:Name="LblGithubID" Content="Github : AminMirzaeiOne" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Foreground="#FF00B0FF" Margin="0,255,0,0" Height="42" Width="276"/>
+        <Label x:Name="LblInstaID" Content="Instagram : Amin.Reals" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Foreground="#FFFF005F" Margin="0,316,0,0" Background="{x:Null}" Height="42" Width="248"/>
 
     </Grid>
 </Window>
