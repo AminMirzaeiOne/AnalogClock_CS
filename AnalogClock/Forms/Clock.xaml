@@ -4,8 +4,8 @@
     Title="Clock" Margin="2" Height="327" Width="311" AllowsTransparency="True" 
         WindowStyle="None" Background="Transparent" WindowStartupLocation="CenterScreen" 
         ResizeMode="NoResize" Topmost="False" Opacity="1">
-    <Grid Width="200" Height="200" >
-        <Image Source="{DynamicResource PinkStyle}" Margin="-48,-52,-52,-48" ></Image>
+    <Grid Width="200" Height="200" MouseLeftButtonDown="Grid_MouseDown">
+        <Image Source="{DynamicResource PinkStyle}" Margin="-48,-52,-52,-48" ImageFailed="Image_ImageFailed"></Image>
 
         <Label Name="christianityCalendar" Foreground="White" Margin="0, 0, 0, 80" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="Auto" Width="Auto">تاریخ میلادی</Label>
         <Label Name="persianCalendar" Foreground="White" Margin="0, 80, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Width="Auto">تاریخ شمسی</Label>
