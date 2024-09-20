@@ -10,6 +10,7 @@
         <Image x:Name="DevImage" HorizontalAlignment="Center" Height="116" Margin="0,39,0,0" VerticalAlignment="Top" Width="116" Source="/Images/AminMirzaei.png"/>
         <Label x:Name="LblDevName" Content="Developer : Amin Mirzaei" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="#FF22CCB1"/>
         <Label x:Name="LblGithubID" Content="Github : AminMirzaeiOne" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Foreground="#FF00B0FF" Margin="0,255,0,0"/>
+        <Label x:Name="LblInstaID" Content="Instagram : Amin.Reals" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Foreground="#FFFF005F" Margin="0,316,0,0" Background="{x:Null}"/>
 
     </Grid>
 </Window>
