@@ -19,6 +19,9 @@ namespace AnalogClock.Forms
     /// </summary>
     public partial class Clock : Window
     {
+        System.Timers.Timer timer = new System.Timers.Timer(1000);
+
+
         public Clock()
         {
             InitializeComponent();
