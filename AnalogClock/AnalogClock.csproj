@@ -95,7 +95,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Page Include="Forms\About.xaml">
       <SubType>Designer</SubType>
@@ -114,6 +113,9 @@
     <Resource Include="Styles\Style4.png" />
     <Resource Include="Styles\Style3.png" />
     <Resource Include="Styles\Style2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AminMirzaei.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

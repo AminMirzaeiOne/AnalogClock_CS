@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AnalogClock.Forms"
         mc:Ignorable="d"
         Title="About" Height="450" Width="800">
-    <Grid x:Name="AboutForm">
+    <Grid x:Name="AboutForm" Background="#FF141414">
         
     </Grid>
 </Window>
