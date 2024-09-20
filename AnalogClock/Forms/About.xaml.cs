@@ -28,5 +28,10 @@ namespace AnalogClock.Forms
         {
             System.Diagnostics.Process.Start("https://github.com/AminMirzaeiOne");
         }
+
+        private void LblInstaID_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.instagram.com/amin.reals/");
+        }
     }
 }
