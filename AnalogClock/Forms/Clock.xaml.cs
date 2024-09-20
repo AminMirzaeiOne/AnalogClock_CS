@@ -71,5 +71,11 @@ namespace AnalogClock.Forms
             Application.Current.Shutdown();
             System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
         }
+
+        private void AboutMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            AnalogClock.Forms.About about = new About();
+            about.ShowDialog();
+        }
     }
 }
