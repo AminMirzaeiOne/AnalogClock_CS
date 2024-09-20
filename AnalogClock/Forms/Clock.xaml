@@ -43,6 +43,15 @@
                 <MenuItem Header="Gold" Foreground="Black" Background="Gold" Click="SGold_Click"/>
                 <MenuItem Header="Magenta" Foreground="White" Background="SlateBlue" Click="SMagenta_Click"/>
             </MenuItem>
+
+            <Separator></Separator>
+            <MenuItem Header="Clock Style">
+                <MenuItem Header="Default"/>
+                <Separator/>
+                <MenuItem Header="Red Style"/>
+                <MenuItem Header="Pink Style"/>
+                <MenuItem Header="Gold Style"/>
+            </MenuItem>
         </ContextMenu>
     </Window.ContextMenu>
     
@@ -58,7 +67,7 @@
         <!-- -->
 
         <!-- Minute  -->
-        <Rectangle Margin="150,49,149,151" x:Name="rectangleMinute" Stroke="Red">
+        <Rectangle Margin="150,49,149,151" x:Name="rectangleMinute" Stroke="White">
             <Rectangle.RenderTransform>
                 <RotateTransform x:Name="minuteHand" CenterX="0" CenterY="100" Angle="0" />
             </Rectangle.RenderTransform>
