@@ -77,5 +77,47 @@ namespace AnalogClock.Forms
             AnalogClock.Forms.About about = new About();
             about.ShowDialog();
         }
+
+        private void HBlack_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleHour.Stroke = Brushes.Black;
+        }
+
+        private void HWhie_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleHour.Stroke = Brushes.White;
+        }
+
+        private void HRed_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleHour.Stroke = Brushes.Crimson;
+        }
+
+        private void HBlue_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleHour.Stroke = Brushes.DodgerBlue;
+        }
+
+        private void HGreen_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleHour.Stroke = Brushes.Green;
+
+        }
+
+        private void HOrange_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleHour.Stroke = Brushes.Tomato;
+        }
+
+        private void HGold_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleHour.Stroke = Brushes.Gold;
+
+        }
+
+        private void HMagenta_Click(object sender, RoutedEventArgs e)
+        {
+            this.rectangleHour.Stroke = Brushes.SlateBlue;
+        }
     }
 }

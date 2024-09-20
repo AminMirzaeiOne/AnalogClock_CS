@@ -11,6 +11,17 @@
             <MenuItem Header="About" Click="AboutMenuItem_Click"/>
             <Separator></Separator>
             <MenuItem Header="Hour Color">
+                <MenuItem Header="Black" Foreground="White" Background="Black" Click="HBlack_Click"/>
+                <MenuItem Header="White" Foreground="Black" Background="White" Click="HWhie_Click"/>
+                <Separator></Separator>
+                <MenuItem Header="Red" Foreground="White" Background="Red" Click="HRed_Click"/>
+                <MenuItem Header="Blue" Foreground="White" Background="DodgerBlue" Click="HBlue_Click"/>
+                <MenuItem Header="Green" Foreground="White" Background="Green" Click="HGreen_Click"/>
+                <MenuItem Header="Orange" Foreground="White" Background="Tomato" Click="HOrange_Click"/>
+                <MenuItem Header="Gold" Foreground="Black" Background="Gold" Click="HGold_Click"/>
+                <MenuItem Header="Magenta" Foreground="White" Background="SlateBlue" Click="HMagenta_Click"/>
+            </MenuItem>
+            <MenuItem Header="Minute Color">
                 <MenuItem Header="Black" Foreground="White" Background="Black"/>
                 <MenuItem Header="White" Foreground="Black" Background="White"/>
                 <Separator></Separator>
@@ -21,8 +32,17 @@
                 <MenuItem Header="Gold" Foreground="Black" Background="Gold"/>
                 <MenuItem Header="Magenta" Foreground="White" Background="SlateBlue"/>
             </MenuItem>
-            <MenuItem Header="Minute Color" />
-            <MenuItem Header="Second Color" />
+            <MenuItem Header="Second Color">
+                <MenuItem Header="Black" Foreground="White" Background="Black"/>
+                <MenuItem Header="White" Foreground="Black" Background="White"/>
+                <Separator></Separator>
+                <MenuItem Header="Red" Foreground="White" Background="Red"/>
+                <MenuItem Header="Blue" Foreground="White" Background="DodgerBlue"/>
+                <MenuItem Header="Green" Foreground="White" Background="Green"/>
+                <MenuItem Header="Orange" Foreground="White" Background="Tomato"/>
+                <MenuItem Header="Gold" Foreground="Black" Background="Gold"/>
+                <MenuItem Header="Magenta" Foreground="White" Background="SlateBlue"/>
+            </MenuItem>
         </ContextMenu>
     </Window.ContextMenu>
     
@@ -38,7 +58,7 @@
         <!-- -->
 
         <!-- Minute  -->
-        <Rectangle Margin="150,49,149,151" Name="rectangleMinute" Stroke="Red">
+        <Rectangle Margin="150,49,149,151" x:Name="rectangleMinute" Stroke="Red">
             <Rectangle.RenderTransform>
                 <RotateTransform x:Name="minuteHand" CenterX="0" CenterY="100" Angle="0" />
             </Rectangle.RenderTransform>
@@ -46,7 +66,7 @@
         <!-- -->
 
         <!-- Hour  -->
-        <Rectangle Margin="150,80,149,150" Name="rectangleHour" Stroke="LightYellow">
+        <Rectangle Margin="150,80,149,150" x:Name="rectangleHour" Stroke="LightYellow">
             <Rectangle.RenderTransform>
                 <RotateTransform x:Name="hourHand" CenterX="0" CenterY="70" Angle="0" />
             </Rectangle.RenderTransform>
