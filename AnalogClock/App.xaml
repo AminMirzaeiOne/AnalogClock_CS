@@ -6,6 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <BitmapImage x:Key="PinkStyle" UriSource="Styles/Style2.png"></BitmapImage>
+            <BitmapImage x:Key="BlackStyle" UriSource="Styles/Style3.png"></BitmapImage>
         </ResourceDictionary>
 
     </Application.Resources>

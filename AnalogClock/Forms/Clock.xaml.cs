@@ -13,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace AnalogClock.Forms
 {
@@ -37,7 +38,12 @@ namespace AnalogClock.Forms
 
         private void timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            throw new NotImplementedException();
+            this.Dispatcher.Invoke(DispatcherPriority.Normal, (Action)(() =>
+            {
+                secondHand.Angle = DateTime.Now.Second * 6;
+                minuteHand.Angle = DateTime.Now.Minute * 6;
+                hourHand.Angle = (DateTime.Now.Hour * 30) + (DateTime.Now.Minute * 0.5);
+            }));
         }
 
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
