@@ -65,5 +65,11 @@ namespace AnalogClock.Forms
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void RestartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+        }
     }
 }
