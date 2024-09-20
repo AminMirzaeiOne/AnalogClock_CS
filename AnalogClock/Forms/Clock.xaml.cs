@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -25,6 +27,17 @@ namespace AnalogClock.Forms
         public Clock()
         {
             InitializeComponent();
+
+            DateTime date = DateTime.Now;
+            TimeZone time = TimeZone.CurrentTimeZone;
+            TimeSpan difference = time.GetUtcOffset(date);
+            timer.Elapsed += new System.Timers.ElapsedEventHandler(timer_Elapsed);
+            timer.Enabled = true;
+        }
+
+        private void timer_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
