@@ -1,7 +1,5 @@
 # AnalogClock
 
-# GetPing
-
 <h2> 👨‍💻 About Project</h2>
 Analog graphic clock software<br />
 
